@@ -1,0 +1,214 @@
+\documentclass{beamer}
+
+% used Commands for installing everything needed + VSCode Packages
+
+% sudo apt install texlive-latex-extra
+% sudo apt -y install texlive-lang-german
+% sudo apt install chktex
+% sudo apt install latexmk
+
+
+%Style
+\mode<presentation>{
+    %Theme
+    %\usetheme{default}
+    %\usetheme{AnnArbor}
+    %\usetheme{Antibes}
+    %\usetheme{Bergen}
+    %\usetheme{Berkeley}
+    %\usetheme{Berlin}
+    %\usetheme{Boadilla}
+    %\usetheme{CambridgeUS}
+    %\usetheme{Copenhagen}      ||||||
+    %\usetheme{Darmstadt}
+    %\usetheme{Dresden}
+    %\usetheme{Frankfurt}
+    %\usetheme{Goettingen}
+    %\usetheme{Hannover}
+    %\usetheme{Ilmenau}
+    %\usetheme{JuanLesPins}
+    %\usetheme{Luebeck}
+    %\usetheme{Madrid}
+    %\usetheme{Malmoe}
+    %\usetheme{Marburg}
+    %\usetheme{Montpellier}
+    %\usetheme{PaloAlto}
+    %\usetheme{Pittsburgh}
+    %\usetheme{Rochester}
+    %\usetheme{Singapore}
+    %\usetheme{Szeged}
+    %\usetheme{Warsaw}
+
+    %Farb-Theme
+    %\usecolortheme{albatross}
+    %\usecolortheme{beaver}
+    %\usecolortheme{beetle}
+    %\usecolortheme{crane}
+    %\usecolortheme{dolphin}      |||||||
+    %\usecolortheme{dove}
+    %\usecolortheme{fly}
+    %\usecolortheme{lily}
+    %\usecolortheme{orchid}
+    %\usecolortheme{rose}
+    %\usecolortheme{seagull}
+    %\usecolortheme{seahorse}
+    %\usecolortheme{whale}
+    %\usecolortheme{wolverine}
+
+    %\setbeamertemplate{footline} % Fußzeile entfernen
+    %\setbeamertemplate{footline}[page number] % Fußzeile entfernen und durch Folien-Zahl ersetzen
+
+    %\setbeamertemplate{navigation symbols}{} % Navigations-Symbole entfernen
+}
+
+%Packages
+\usepackage[utf8]{inputenc} %Deutsche Umlaute
+\usepackage[ngerman]{babel} %Deutsche Sprache
+\usepackage{graphicx}       %für Bilder
+\usepackage{booktabs}       %für \toprule \midrule \bottomrule in Tabellen
+
+
+%Einstellungen der Präsi
+\title{Speedcubing}
+\author{Kimi Löffel}
+\institute[Bbc]{ICT Berufsbildungscenter}
+\date{\today}
+
+
+
+\begin{document}
+
+    %Titelseite
+    \begin{frame}
+        \titlepage{}
+        \end{frame}
+
+
+
+    %Inhaltsverzeichnis
+    \begin{frame}{Inhalt}
+        \tableofcontents
+    \end{frame}
+
+
+
+    \section{What is it?}
+
+
+        %What is Speedcubing
+        \begin{frame}{What is it?}
+            \begin{itemize}
+                \item Speedsolving a puzzle \pause{}
+                \item Collecting Puzzles \pause{}
+                \item Modders
+            \end{itemize}
+        \end{frame}
+    
+
+
+    \section{Puzzles}
+        \subsection{WCA}
+        
+            \subsubsection{What is the WCA?}
+
+
+
+                %What is the WCA
+                \begin{frame}{What is the WCA}
+                    \begin{itemize}
+                        \item World Cube Association \pause{}
+                        \item Organizes Competitions \pause{}
+                        \item Award official records
+                    \end{itemize}
+                \end{frame}
+
+            \subsubsection{WCA puzzles/events}
+
+                %All WCA puzzles and events
+                \begin{frame}{WCA puzzles and events}
+                    \begin{columns}[c] 
+                        \column{.25\textwidth} %linke spalte
+                            \begin{itemize}
+                                \item 3x3x3 \pause{}
+                                \item 2x2x2 \pause{}
+                                \item 4x4x4 \pause{}
+                                \item 5x5x5 \pause{}
+                                \item 6x6x6 \pause{}
+                                \item 7x7x7 \pause{}
+                                \item 3x3x3 BLD \pause{}
+                                \item 3x3x3 FMC \pause{}
+                                \item 3x3x3 OH \pause{}
+                            \end{itemize}
+                        \column{.25\textwidth} % mittlere Spalte
+                            \begin{itemize}
+                                \item Clock \pause{}
+                                \item Megaminx \pause{}
+                                \item Pyraminx \pause{}
+                                \item Skewb \pause{}
+                                \item Square-1 \pause{}
+                                \item 4x4x4 BLD \pause{}
+                                \item 5x5x5 BLD \pause{}
+                                \item 3x3x3 Multi-BLD \pause{}
+                            \end{itemize}
+                        \column{.25\textwidth} %rechte spalte 1
+
+                            \begin{figure}
+                                \includegraphics[width=0.6\textwidth]{clock.jpg}
+                            \end{figure}
+
+                            \begin{figure}
+                                \includegraphics[width=0.6\textwidth]{mega.jpg}
+                            \end{figure}
+
+                            \begin{figure}
+                                \includegraphics[width=0.7\textwidth]{pyra.jpg}
+                            \end{figure}
+
+                        \column{.25\textwidth} %rechte spalte 2
+
+                            \begin{figure}
+                                \includegraphics[width=0.9\textwidth]{skewb.jpg}
+                            \end{figure}
+
+                            \begin{figure}
+                                \includegraphics[width=0.8\textwidth]{square1.jpg}
+                            \end{figure}
+                    \end{columns}
+                \end{frame}
+
+        \subsection{non WCA}
+            \begin{frame}{non WCA puzzles}
+                \begin{figure}
+                    \includegraphics[width=\textwidth]{nonWCAall.jpg}
+                \end{figure}
+            \end{frame}
+        \subsection{Shops}
+    \section{Solving methods}
+        \subsection{Beginners}
+        \subsection{CFOP}
+        \subsection{ROUX}
+        \subsection{others}
+    \section{What about me?}
+        %Tabellen
+        \begin{frame}{Tabelle}
+            \begin{table}
+                \begin{tabular}{l l l}
+                    \toprule
+                    \textbf{2015} & \textbf{2016} & \textbf{2017}\\
+                    \midrule
+                    0.531 & 0.03262 & 0.562 \\
+                    0.122 & 0.15681 & 0.910 \\
+                    0.653 & 0.09271 & 0.296 \\
+                    \bottomrule
+                \end{tabular}
+                \caption{Verteilung}
+            \end{table}
+        \end{frame}
+
+        %Formeln
+        \begin{frame}{Theorem}
+            \begin{theorem}[Formel xy]
+                $P_{anda}=mc^2$
+            \end{theorem}
+        \end{frame}
+\end{document}
