@@ -1,4 +1,4 @@
-\documentclass{beamer}
+\documentclass[10pt]{beamer}
 
 % used Commands for installing everything needed + VSCode Packages
 
@@ -39,7 +39,7 @@
     %\usetheme{Singapore}
     %\usetheme{Szeged}
     %\usetheme{Warsaw}
-    %\usetheme{metropolis}                          ||||||||||||||||||||||||||||||||
+    \usetheme{metropolis}                          %||||||||||||||||||||||||||||||||
     
     %Farb-Theme
     %\usecolortheme{albatross}
@@ -69,7 +69,9 @@
 \usepackage{graphicx}       %für Bilder
 \usepackage{booktabs}       %für \toprule \midrule \bottomrule in Tabellen
 
-
+\renewcommand{\baselinestretch}{1} 
+%\geometry{top=100mm}
+%\addtolength{\topmargin}{10pt}
 %Einstellungen der Präsi
 \title{Speedcubing}
 \author{Kimi Löffel}
@@ -83,12 +85,13 @@
     %Titelseite
     \begin{frame}
         \titlepage{}
-        \end{frame}
+    \end{frame}
 
 
 
     %Inhaltsverzeichnis
     \begin{frame}{Inhalt}
+        \vspace{20pt}
         \tableofcontents
     \end{frame}
 
