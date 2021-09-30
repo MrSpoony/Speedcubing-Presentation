@@ -99,10 +99,10 @@
 
     \section{What is it?}
 
-
         %What is Speedcubing
         \begin{frame}{What is it?}
             \begin{itemize}
+                \pause{}
                 \item Speedsolving a puzzle \pause{}
                 \item Collecting Puzzles \pause{}
                 \item Modders
@@ -116,11 +116,10 @@
         
             \subsubsection{What is the WCA?}
 
-
-
                 %What is the WCA
                 \begin{frame}{What is the WCA}
                     \begin{itemize}
+                        \pause{}
                         \item World Cube Association \pause{}
                         \item Organizes Competitions \pause{}
                         \item Award official records
@@ -134,6 +133,7 @@
                     \begin{columns}[c] 
                         \column{.27\textwidth} %linke spalte
                             \begin{itemize}
+                                \pause{}
                                 \item 3$\times$3$\times$3 \pause{}
                                 \item 2$\times$2$\times$2 \pause{}
                                 \item 4$\times$4$\times$4 \pause{}
@@ -187,49 +187,111 @@
                     \includegraphics[width=\textwidth]{assets/nonWCAall.jpg}
                 \end{figure}
             \end{frame}
-        \subsection{Shops}
-            \begin{frame}{Cube-Shops}
-                \begin{itemize}
-                    \item Fabitasia
-                    \item Cubeshop Schweiz
-                    \item Cubeless
-                    \item EuroCubes
-                    \item Cubicle
-                    \item Speedcubeshop
-                \end{itemize}
-            \end{frame}
         
     \section{Solving methods}
         \subsection{Beginners}
             \begin{frame}{Beginners method}
-                \begin{itemize}
-                    \item Cross $\rightarrow{}$ First Layer $\rightarrow{}$ First two layers $\rightarrow{}$ Orient edges of LL $\rightarrow{}$ Permute edges of LL $\rightarrow{}$ Permute edges of LL $\rightarrow{}$ Orient edges of LL \pause{} 
-                    \item Slow $\rightarrow{}$ not meant for speedsolving \pause{}
-                    \item Easy to learn
-                \end{itemize}
+                \begin{columns}[t]
+                    \column{.6\textwidth}
+                    \newline \newline \newline 
+                        \begin{itemize}
+                            \item<2-> Slow $\rightarrow{}$ not meant for speedsolving \pause{}
+                            \item<3-> Easy to learn \pause{}
+                            \item<4-> Procedure:
+                            \begin{enumerate}
+                                \item<5-> Cross
+                                \item<6-> First Layer
+                                \item<6-> First two layers
+                                \item<7-> Orient edges of LL
+                                \item<9-> Permute edges of LL
+                                \item<10-> Permute corners of LL
+                                \item<11-> Orient edges of LL
+                            \end{enumerate}
+                        \end{itemize}
+                    \column{.25\textwidth}
+                        \begin{figure}
+                            \visible<5->{\includegraphics[width=.5\textwidth]{assets/cross.jpg}}
+                        \end{figure}
+                        \begin{figure}
+                            \visible<7->{\includegraphics[width=.5\textwidth]{assets/f2l.jpg}}
+                        \end{figure}
+                        \begin{figure}
+                            \visible<9->{\includegraphics[width=.5\textwidth]{assets/oyellowcross.jpg}}
+                        \end{figure}
+                        \begin{figure}
+                            \visible<11->{\includegraphics[width=.5\textwidth]{assets/oyellowcorners.jpg}}
+                        \end{figure}
+                    \column{.25\textwidth}
+                        \begin{figure}
+                            \visible<6->{\includegraphics[width=.5\textwidth]{assets/f1l.jpg}}
+                        \end{figure}
+                        \begin{figure}
+                            \visible<8->{\includegraphics[width=.5\textwidth]{assets/yellowcross.jpg}}
+                        \end{figure}
+                        \begin{figure}
+                            \visible<10->{\includegraphics[width=.5\textwidth]{assets/pyellowcorners.jpg}}
+                        \end{figure}
+                \end{columns}
             \end{frame}
         \subsection{CFOP}
             \begin{frame}{CFOP method}
-                \begin{itemize}
-                    \item Cross $\rightarrow{}$ F2L $\rightarrow{}$ OLL $\rightarrow{}$ PLL \pause{} 
-                    \item Used by some of the best speedsolvers in the world \pause{}
-                    \item Easy to learn
-                \end{itemize}
+                \begin{columns}[c] 
+                    \column{.6\textwidth} 
+                        \begin{itemize}
+                            \item<2-> Used by some of the best speedsolvers in the world \pause{}
+                            \item<3-> Easy to learn
+                            \item<4-> Procedure:
+                            \begin{enumerate}
+                                \item<5-> Cross
+                                \item<6-> F2L
+                                \item<7-> OLL
+                                \item<8-> PLL
+                            \end{enumerate}
+                        \end{itemize}
+                    \column{.25\textwidth} 
+                        \begin{figure}
+                            \visible<5->{\includegraphics[width=.6\textwidth]{assets/Cross.jpg}}
+                        \end{figure}
+                        \begin{figure}
+                            \visible<6->{\includegraphics[width=.5\textwidth]{assets/F2L.png}}
+                        \end{figure}
+                        \begin{figure}
+                            \visible<7->{\includegraphics[width=.5\textwidth]{assets/OLL.png}}
+                        \end{figure}
+                        \begin{figure}
+                            \visible<8->{\includegraphics[width=.5\textwidth]{assets/PLL.jpg}}
+                        \end{figure}
+                \end{columns}
             \end{frame}
         \subsection{ROUX}
-        \begin{frame}{ROUX method}
-                \begin{itemize}
-                    \item Block $\rightarrow{}$ second Block $\rightarrow{}$ Orient and perumte corners of LL $\rightarrow{}$ Orient last edges$\rightarrow{}$ Permute last edges \pause{} 
-                    \item Used by some of the best speedsolvers in the world \pause{}
-                    \item Quite intuitive
-                \end{itemize}
+            \begin{frame}{ROUX method}
+                \begin{columns}[c]
+                    \column{.6\textwidth}
+                        \begin{itemize}
+                            \item<1-> Used by some of the best speedsolvers in the world
+                            \item<2-> Quite intuitive 
+                            \item<3-> Procedure:
+                            \begin{enumerate}
+                                \item<5-> first block
+                                \item<6-> second Block
+                                \item<7-> Orient and perumte corners of LL
+                                \item<8-> Orient last edges
+                                \item<9-> Permute last edges
+                            \end{enumerate}
+                        \end{itemize}
+                    \column{.3\textwidth}
+                        \begin{figure}
+                            \visible<5->{\includegraphics[width=\textwidth]{assets/ROUXmethod.jpg}}
+                        \end{figure}
+                \end{columns}
             \end{frame}
         \subsection{others}
             \begin{frame}{Other methods}
                 \begin{itemize}
+                    \pause{}
                     \item Kociemba $\rightarrow{}$ Computer \pause{}
-                    \item ZZ $\rightarrow{}$ speedsolving \pause{}
-                    \item Petrus $\rightarrow{}$ old speedsolving method \pause{}
+                    \item ZZ $\rightarrow{}$ Speedsolving \pause{}
+                    \item Petrus $\rightarrow{}$ Old speedsolving method \pause{}
                     \item Old Pochmann method $\rightarrow{}$ BLD \pause{}
                     \item 3-Style $\rightarrow{}$ BLD \pause{}
                     \item Variations of each one 
@@ -238,6 +300,7 @@
     \section{What about me?}
         \begin{frame}{What about me?}
             \begin{itemize}
+                \pause{}
                 \item Started in November 2020 \pause{}
                 \item Speedsolver \pause{}
                 \item Main events: \pause{}
